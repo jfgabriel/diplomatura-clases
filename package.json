@@ -1,19 +1,19 @@
 {
-  "name": "diplomatura-clases",
+  "name": "vanilla",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jfgabriel/diplomatura-clases.git"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jfgabriel/diplomatura-clases/issues"
-  },
-  "homepage": "https://github.com/jfgabriel/diplomatura-clases#readme"
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
 }
